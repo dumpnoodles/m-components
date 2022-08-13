@@ -12,9 +12,7 @@ const app = createApp(App)
 
 // 全局注册图标
 for(const [key, component] of Object.entries(ElementPlusIconsVue)) {
-  console.log('el-icon-${toLine(key)}', `el-icon-${toLine(key)}`);
-  
-  
+  // icon的名字是驼峰格式，将其转换成小写，如 ArrowDownBold 转换为 arrowdownBold，并修改名字为 el-icon-arrowdownBold
   app.component(`el-icon-${toLine(key)}`, component)
 }
 
