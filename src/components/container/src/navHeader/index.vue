@@ -1,6 +1,6 @@
 <template>
 <div class="header">
-  <span @click="toggle">
+  <span @click="toggle" class="pointer-cursor">
     <el-icon-expand v-if="collapse"></el-icon-expand>
     <el-icon-fold v-else></el-icon-fold>
   </span>
@@ -29,6 +29,10 @@ const toggle = () => {
   padding: 0 20px;
   display: flex;
   align-items: center;
+}
+
+.pointer-cursor {
+  cursor: pointer;
 }
 
 </style>

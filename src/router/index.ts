@@ -4,8 +4,9 @@ import {
   RouteRecordRaw
 } from 'vue-router'
 
-import Home from '../views/Home.vue'
-import Container from '../components/container/src/index.vue'
+import Container from '../components/container/src/index.vue' // 布局组件
+
+import Home from '../views/Home.vue' // Home页面
 
 const routes: RouteRecordRaw[] = [
   {
@@ -15,6 +16,10 @@ const routes: RouteRecordRaw[] = [
       {
         path: '/',
         component: Home
+      },
+      {
+        path: '/chooseIcon', // 图标选择器页面
+        component: () => import('../views/chooseIcon/index.vue')
       }
     ]
   }
