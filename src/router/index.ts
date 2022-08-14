@@ -20,6 +20,10 @@ const routes: RouteRecordRaw[] = [
       {
         path: '/chooseIcon', // 图标选择器页面
         component: () => import('../views/chooseIcon/index.vue')
+      },
+      {
+        path: '/chooseArea', // 省市区选择器
+        component: () => import('../views/chooseArea/index.vue')
       }
     ]
   }

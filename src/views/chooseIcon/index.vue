@@ -1,18 +1,16 @@
 <template>
     <div>
-      <choose-icon
+      <m-choose-icon
         title="选择图标"
         v-model:visible="visible"
       >
         选择图标
-      </choose-icon>
+      </m-choose-icon>
     </div>
 </template>
 
 <script lang="ts" setup>
 import { ref } from "vue"
-
-import chooseIcon from '../../components/chooseIcon/src/index.vue'
 
 let visible = ref(false)
 
