@@ -24,6 +24,10 @@ const routes: RouteRecordRaw[] = [
       {
         path: '/chooseArea', // 省市区选择器
         component: () => import('../views/chooseArea/index.vue')
+      },
+      {
+        path: '/trend', // 趋势标记
+        component: () => import('../views/trend/index.vue')
       }
     ]
   }
