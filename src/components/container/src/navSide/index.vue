@@ -13,8 +13,16 @@
         <span>图标选择器</span>
       </el-menu-item>
       <el-menu-item index="3">
+        <el-icon-grid class="el-icon-menu"></el-icon-grid>
+        <span>省市区选择器</span>
+      </el-menu-item>
+      <el-menu-item index="4">
         <el-icon-histogram class="el-icon-menu"></el-icon-histogram>
         <span>趋势标记</span>
+      </el-menu-item>
+      <el-menu-item index="5">
+        <el-icon-histogram class="el-icon-menu"></el-icon-histogram>
+        <span>通知菜单</span>
       </el-menu-item>
     </el-menu>
 </template>
