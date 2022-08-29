@@ -14,7 +14,7 @@ const routes: RouteRecordRaw[] = [
     component: Container,
     children: [
       {
-        path: '/',
+        path: '/', // 首页
         component: Home
       },
       {
@@ -32,6 +32,10 @@ const routes: RouteRecordRaw[] = [
       {
         path: '/notification', // 通知菜单
         component: () => import('../views/notification/index.vue')
+      },
+      {
+        path: '/menu', // 导航菜单
+        component: () => import('../views/menu/index.vue')
       }
     ]
   }
