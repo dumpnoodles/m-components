@@ -34,9 +34,13 @@ const routes: RouteRecordRaw[] = [
         component: () => import('../views/notification/index.vue')
       },
       {
+        path: '/progress', // 进度条
+        component: () => import('../views/progress/index.vue')
+      },
+      {
         path: '/menu', // 导航菜单
         component: () => import('../views/menu/index.vue')
-      }
+      },
     ]
   }
 ]

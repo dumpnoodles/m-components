@@ -6,7 +6,7 @@ import trend from './trend'
 import notification from './notification'
 import list from './list'
 import menu from './menu'
-// import progress from './progress'
+import progress from './progress'
 
 const components  = [
   chooseIcon,
@@ -15,7 +15,7 @@ const components  = [
   notification,
   list,
   menu,
-  // progress
+  progress
 ]
 
 export default {
